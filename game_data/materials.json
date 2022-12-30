@@ -1,0 +1,34 @@
+{
+	"coins": {
+		"icon": ":coin:",
+		"value": 1
+	},
+	"wood": {
+		"icon": ":wood:",
+		"value": 0.01
+	},
+	"rock": {
+		"icon": ":rock:",
+		"value": 0.01
+	},
+	"animal_fertilizer": {
+		"icon": ":poop:",
+		"value": 0.01
+	},
+	"meat": {
+		"icon": ":cut_of_meat:",
+		"value": 0.01
+	},
+	"animal_skin": {
+		"icon": ":paperclip:",
+		"value": 0.01
+	},
+	"fruit": {
+		"icon": ":apple:",
+		"value": 0.01
+	},
+	"vegetables": {
+		"icon": ":cucumber:",
+		"value": 0.01
+	}
+}

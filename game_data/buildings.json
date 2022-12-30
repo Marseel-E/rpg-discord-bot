@@ -1,0 +1,32 @@
+{
+	"rock_mine": {
+		"icon": ":paperclip:",
+		"cost": [{"coins": 5}],
+		"input": [{"coins": 1}],
+		"output": [{"rock": 0.1}]
+	},
+	"wood_farm": {
+		"icon": ":paperclip:",
+		"cost": [{"coins": 5}],
+		"input": [{"coins": 1}],
+		"output": [{"wood": 0.1}]
+	},
+	"animal_farm": {
+		"icon": ":paperclip:",
+		"cost": [{"wood": 5, "coins": 5}],
+		"input": [{"coins": 1}],
+		"output": [{"animal_fertilizer": 0.1}, {"meat": 0.1}, {"animal_skin": 0.1}]
+	},
+	"plants_farm": {
+		"icon": ":paperclip:",
+		"cost": [{"wood": 5, "coins": 5}],
+		"input": [{"animal_fertilizer": 3, "coins": 1}],
+		"output": [{"fruit": 0.1}, {"vegetables": 0.1}]
+	},
+	"market": {
+		"icon": ":paperclip:",
+		"cost": [{"wood": 10}],
+		"input": ["animal_skin", "fruit", "vegetables"],
+		"output": ["coins"]
+	}
+}
